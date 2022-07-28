@@ -1,12 +1,19 @@
+
 .principal
 {
-background-image: url('imgprincipal/img24.jpg');
+background-image: linear-gradient(rgba(16, 16, 16, 0.7), rgba(16, 16, 16, 0.7)), url(./imgprincipal/img24.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 
-
 }
+body{
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
 p
 {
   font-style: oblique;
@@ -44,8 +51,8 @@ margin: 50px;
 .presentacion
 {
 float: left;
-margin-left: -20px;
-margin-top: -140px;
+width: 850px;
+padding: 55px;
 
 }
 
@@ -95,7 +102,11 @@ footer
 
 .productos
 {
-background-color: rgb(128, 197, 128);
+background-image: linear-gradient(rgba(26, 26, 27, 0.7), rgba(92, 92, 97, 0.7)), url('imgprincipal/img1.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
 
 }
 .container
@@ -189,6 +200,56 @@ color: grey;
 .segmento
 {
 text-align: center;
+
+
+}
+.nav-logo:hover {
+  
+  border-radius: 5%;
+  box-shadow: 0px 0px 10px 3px #fff;
+  transform: translateY(-10%);
+  transition: all 0.4s;
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .show>.nav-link {
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  
+  border-radius: 2rem;
+  transition: all 0.5s;
+  transform: translateY(-10%);
+  box-shadow: 0px 0px 3px 3px #fff;
+}
+footer
+{
+
+  border-radius: 10%;
+  box-shadow: 0px 0px 5px 5px black;
+  transform: translateY(-10%);
+  transition: all 0.4s;
+}
+.img
+{
+  border-radius: 50%;
+  height: 30px;
+  margin-left: 45px;
+  box-shadow: 0px 0px 5px 5px rgb(171, 182, 175);
+  transition: all 400ms ease;
+}
+.img:hover
+{
+  border-radius: 4%;
+  box-shadow: 0px 0px 10px 3px #fff;
+  transform: translateY(-10%);
+  transition: all 0.4s;
 
 
 }
