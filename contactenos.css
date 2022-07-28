@@ -1,0 +1,118 @@
+body {
+  background-image: url(imgprincipal/img24.jpg);
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1 {
+  color: gainsboro;
+  margin-left: 20px;
+}
+
+#cajaformulario
+{
+   width: 400px;
+  border: 5px solid grey;
+  padding: 50px;
+  
+  margin-bottom: 100px;
+  margin-right: 900px;
+  
+    background-color: rgb(128, 197, 128);
+    text-align: left;
+    margin: 100;
+    margin-top: -650px;
+
+}
+.parrafoformulario
+{
+margin-left:300px;
+margin-top: 200px;
+text-align: center;
+font-style: oblique;
+font-weight: 600;
+}
+.video
+{
+margin-left: 530px;
+
+
+}
+.etiqueta
+
+{
+    
+   font-family: cursive;
+    color:grey;
+    
+}
+
+#nombre
+
+{
+    
+   height: 30px;
+    width: 300px;
+    border: 2px solid grey;
+    
+
+}
+
+#correo
+
+{
+    
+   height: 30px;
+    width: 300px;
+    border: 2px solid grey;
+
+}
+
+
+#asunto
+
+{
+    
+   height: 30px;
+    width: 300px;
+ border: 2px solid grey;
+
+}
+
+#mensaje
+
+{
+    
+   height: 60px;
+    width: 300px;
+  border: 2px solid grey;
+
+}
+.button {
+    
+    height: 50px;
+    width: 250px;
+color: whitesmoke;
+  background-color: green;
+  border: 2px solid #4CAF50; /* Green */
+    font-family: cursive;
+    margin-left: 25px;
+}
+
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color:white;
+}
+.contacto
+{
+  background-image: url(imgprincipal/img24.jpg);
+  background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
